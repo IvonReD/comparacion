@@ -1,6 +1,16 @@
 var  comparar= function (arreglo1, arreglo2){
-  if (arreglo1.length === arreglo2.length){
-    document.write ('Tiene la misma longitud')
+  if (arreglo1.length !== arreglo2.length){ // compara la longitud
+    //document.write ('Tiene la misma longitud')
+    //return false;
+    document.write ("Tus arreglos no son iguales")
+  }else{
+    //  document.write ("Son Igauales")
+    for (var i=0; i<arreglo1.length; i+=1){
+      if (arreglo1[i] !== arreglo2[i]){ // compara el arreglo  si no son exactamente iguales
+        //return false;
+          document.write ("No son iguales, Un indice esta mal")
+      }
+    }
   }
 
 }
