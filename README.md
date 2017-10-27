@@ -14,4 +14,4 @@ Escribe una función llamada areArraysSame que tome dos arrays como argumentos. 
 5. FIN <3
 
 # Diagrama de Flujo
-![Diagrama de flujo](<Diagrama class='jpg'> </Diagrama>)
+![Diagrama de flujo](Diagrama.jpg)
